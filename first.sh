@@ -1,2 +1,3 @@
-#!/bin/#!/bin/sh
+
+echo 'hello world'
 # This is a comment!
