@@ -1,7 +1,7 @@
 add_a_user()
 {
-  USER=$1
-  PASSWORD=$2
+  USER=$1 # get the first parameter for this function
+  PASSWORD=$2 # get the second parameter for this function
   shift; shift;
   # Having shifted twice, the rest is now comments ...
   COMMENTS=$@
@@ -16,6 +16,6 @@ add_a_user()
 ###
 echo "Start of script..."
 add_a_user bob letmein Bob Holness the presenter
-add_a_user fred badpassword Fred Durst the singer
-add_a_user bilko worsepassword Sgt. Bilko the role model
+#add_a_user fred badpassword Fred Durst the singer
+#add_a_user bilko worsepassword Sgt. Bilko the role model
 echo "End of script..."
